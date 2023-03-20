@@ -8,13 +8,14 @@ body {
 
     /* Auth */
 .auth {
+    width: 400px;
     margin: 20px auto;
     padding: 1px 20px 10px 20px;
-    width: 300px;
 
     background-color: aliceblue;
 }
 
+    /* Registration */
 .auth-title {
     text-align: center;
 
@@ -31,9 +32,12 @@ body {
 }
     /* Feildset */
 
+fieldset {
+    padding-bottom: 1px;
+}
+
 .fieldset-name {
     border: 2px double #000000;
-    padding-bottom: 3.25px;
 }
 
 .legend-name {
@@ -41,25 +45,70 @@ body {
     font-family: Garamond, sans-serif;
     letter-spacing: 1.5px;
     word-spacing: 3.1px;
+
+    color: #008e00;
 }
 
     /* Input */
+
 .form-input {
     margin-bottom: 13px;
 }
 
 .input {
+    display: inline-block;
+
+    width: 350px;
     padding: 6px 8px;
-    width: 250px;
+
     font-size: 16px;
+
+    border: 1px solid #ccc;
 }
 
+input:focus {
+    outline: 2px solid #008e00;
+}
 
+    /* Locality */
+.legend-local {
+    font-weight: 700;
+    font-family: Garamond, sans-serif;
+    letter-spacing: 0.8px;
 
+    color: #008e00;
+}
 
+.local-select {
+    display: block;
 
+}
 
+.select {
+    width: 172px;
+    padding: 6px 8px;
+    margin-right: 5px;
+    margin-bottom: 13px;
 
+    font-size: 16px;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+}
+
+.select:focus {
+    outline: 2px solid #008e00;
+}
+
+.local-input {
+    width: 172px;
+    padding: 6px 8px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+}
 
 
 
