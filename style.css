@@ -21,7 +21,7 @@ legend {
 
 .auth {
     width: 400px;
-    margin: 20px auto;
+    margin: 60px auto;
     padding: 1px 20px 10px 20px;
 
     background-color: aliceblue;
@@ -187,17 +187,8 @@ input:focus {
 
     /*Agreement*/
 
-.input-agree {
-
-}
-
 .input-agree:hover {
     cursor: pointer;
-}
-
-.input-text {
-    color: black;
-
 }
 
 .input-text:hover {
@@ -205,19 +196,70 @@ input:focus {
     cursor: pointer;
 }
 
+    /*Buttons*/
+
+.buttons {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*Send*/
+.send {
+    width: 126px;
+    background-color: #008e00;
+
+    border: 1px solid #ccc;
+    border-radius: 1px;
+
+    padding: 3px 0px 3px 0px;
+
+    font-size: 16px;
+
+    color: whitesmoke;
+}
+
+.send:focus,
+.send:hover {
+    cursor: pointer;
+    background-color: #006a00;
+}
+
+.send:active {
+    background-color: #014601;
+}
 
 
+/*Clear*/
+.clear {
+    width: 126px;
 
+    border: 1px solid #ccc;
+    border-radius: 1px;
 
+    padding: 3px 0px 3px 0px;
 
+    font-size: 16px;
 
+}
 
+.clear:hover {
+    cursor: pointer;
+}
 
+/*Back*/
+.back {
+    width: 126px;
 
+    border: 1px solid #ccc;
+    border-radius: 1px;
 
+    padding: 3px 0px 3px 0px;
 
+    font-size: 16px;
 
+}
 
-
-
+.back:hover {
+    cursor: pointer;
+}
 
