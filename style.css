@@ -51,6 +51,7 @@ legend {
 
 fieldset {
     padding-bottom: 1px;
+    margin-bottom: 10px;
 }
 
 .fieldset {
@@ -171,6 +172,7 @@ input:focus {
     border: 1px solid #ccc;
 
 }
+
 .cvv-card {
     display: inline-block;
 
@@ -181,5 +183,41 @@ input:focus {
     font-size: 16px;
 
     border: 1px solid #ccc;
+}
+
+    /*Agreement*/
+
+.input-agree {
 
 }
+
+.input-agree:hover {
+    cursor: pointer;
+}
+
+.input-text {
+    color: black;
+
+}
+
+.input-text:hover {
+    color: #404040;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
