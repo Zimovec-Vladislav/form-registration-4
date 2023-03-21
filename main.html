@@ -10,7 +10,8 @@
         <h1 class="auth-title">Registration</h1>
         <form class="form-group">
 
-        <fieldset class="fieldset-name">
+<!--Registration Data-->
+        <fieldset class="fieldset">
             <legend class="legend-name">Registration data</legend>
             <div class="form-input">
                 <input class="input" type="text" name="name1" placeholder="First name">
@@ -32,7 +33,8 @@
             </div>
         </fieldset>
 
-        <fieldset class="fieldset-name">
+<!--Locality-->
+        <fieldset class="fieldset">
             <legend class="legend-local">Locality</legend>
             <div class="local-select">
                 <select class="select">
@@ -41,9 +43,25 @@
                     <option>Los-Angeles</option>
                 </select><input class="local-input" type="text" name="street" placeholder="0000 Street">
             </div>
-
         </fieldset>
 
+<!--Bank Card-->
+        <fieldset class="fieldset-card">
+            <legend class="legend-card">Bank card</legend>
+
+            <div class="form-input">
+                <input class="number-card" type="text" name="card" placeholder="0000-0000-0000-0000">
+
+                <input class="date-card" type="text" name="date" placeholder="mm/yy">
+            </div>
+
+            <div class="form-input">
+                <input class="name-card" type="text" name="name" placeholder="Name on card">
+
+                <input class="cvv-card" type="text" name="cvv" placeholder="cvv">
+            </div>
+
+        </fieldset>
         </form>
     </div>
 </body>

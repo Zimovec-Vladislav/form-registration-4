@@ -6,7 +6,19 @@ body {
     background-color: #073863;
 }
 
+h1, legend {
+    text-transform: capitalize;
+}
+
+legend {
+    font-weight: 700;
+    font-family: Garamond, sans-serif;
+    color: #008e00;
+}
+
+
     /* Auth */
+
 .auth {
     width: 400px;
     margin: 20px auto;
@@ -15,7 +27,9 @@ body {
     background-color: aliceblue;
 }
 
+
     /* Registration */
+
 .auth-title {
     text-align: center;
 
@@ -26,27 +40,26 @@ body {
     color: #073863;
 }
 
+
     /* Form */
 .form-group {
 
 }
+
+
     /* Feildset */
 
 fieldset {
     padding-bottom: 1px;
 }
 
-.fieldset-name {
+.fieldset {
     border: 2px double #000000;
 }
 
 .legend-name {
-    font-weight: 700;
-    font-family: Garamond, sans-serif;
     letter-spacing: 1.5px;
     word-spacing: 3.1px;
-
-    color: #008e00;
 }
 
     /* Input */
@@ -70,22 +83,19 @@ input:focus {
     outline: 2px solid #008e00;
 }
 
-    /* Locality */
-.legend-local {
-    font-weight: 700;
-    font-family: Garamond, sans-serif;
-    letter-spacing: 0.8px;
 
-    color: #008e00;
+    /* Locality */
+
+.legend-local {
+    letter-spacing: 0.6px;
 }
 
 .local-select {
     display: block;
-
 }
 
 .select {
-    width: 172px;
+    width: 140px;
     padding: 6px 8px;
     margin-right: 5px;
     margin-bottom: 13px;
@@ -102,7 +112,7 @@ input:focus {
 }
 
 .local-input {
-    width: 172px;
+    width: 206px;
     padding: 6px 8px;
 
     font-size: 16px;
@@ -111,4 +121,65 @@ input:focus {
 }
 
 
+    /* Bank Card */
 
+.fieldset-card {
+    margin-right: 125px;
+    padding-bottom: 1px;
+
+    border: 2px double #000000;
+
+}
+
+.legend-card {
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+}
+
+.number-card {
+    display: inline-block;
+
+    width: 157px;
+    padding: 6px 8px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+}
+
+.date-card {
+    display: inline-block;
+
+    width: 50px;
+    padding: 6px 8px;
+    margin: 1px auto;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+}
+
+.name-card {
+    display: inline-block;
+
+    width: 157px;
+    padding: 6px 8px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+}
+.cvv-card {
+    display: inline-block;
+
+    width: 26px;
+    padding: 6px 8px;
+    margin-left: 24px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+}
